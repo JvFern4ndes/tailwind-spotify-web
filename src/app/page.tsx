@@ -132,8 +132,16 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
-        footer
+      <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <Image src="/album3.jpg" className="w-full" width={56} height={56} alt="Capa do álbum Revel do Filipe Ret" />
+          <div className="flex flex-col">
+            <strong className="font-normal">Revel</strong>
+            <span className="text-xs text-zinc-400">Filipe Ret</span>
+          </div>
+        </div>
+        <div></div>
+        <div></div>
       </footer>
     </div>
   )
