@@ -100,6 +100,36 @@ export default function Home() {
               </button>
             </a>
           </div>
+
+          <h2 className="font-semibold text-2xl mt-10">Made for João Victor Fernandes</h2>
+
+          <div className="grid grid-cols-8 gap-4 mt-4">
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album2.jpg" className="w-full" width={120} height={120} alt="Capa do álbum Vivaz do Filipe Ret" />
+              <strong className="font-semibold">Vivaz</strong>
+              <span className="text-sm text-zinc-400">Filipe Ret</span>
+            </a>
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album2.jpg" className="w-full" width={120} height={120} alt="Capa do álbum Vivaz do Filipe Ret" />
+              <strong className="font-semibold">Vivaz</strong>
+              <span className="text-sm text-zinc-400">Filipe Ret</span>
+            </a>
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album2.jpg" className="w-full" width={120} height={120} alt="Capa do álbum Vivaz do Filipe Ret" />
+              <strong className="font-semibold">Vivaz</strong>
+              <span className="text-sm text-zinc-400">Filipe Ret</span>
+            </a>
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album2.jpg" className="w-full" width={120} height={120} alt="Capa do álbum Vivaz do Filipe Ret" />
+              <strong className="font-semibold">Vivaz</strong>
+              <span className="text-sm text-zinc-400">Filipe Ret</span>
+            </a>
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album2.jpg" className="w-full" width={120} height={120} alt="Capa do álbum Vivaz do Filipe Ret" />
+              <strong className="font-semibold">Vivaz</strong>
+              <span className="text-sm text-zinc-400">Filipe Ret</span>
+            </a>
+          </div>
         </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
