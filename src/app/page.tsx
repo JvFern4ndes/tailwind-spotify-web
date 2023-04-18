@@ -25,6 +25,16 @@ export default function Home() {
               Your Library
             </a>
           </nav>
+
+          <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">My Playlist #2</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Top Gaming Tracks</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Your Top Songs 2022</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">This is Costa Gold</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">100% Black Total - anos 2000</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Replay Hits | Pop 2000</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Jão</a>
+          </nav>
         </aside>
         <main className="flex-1 p-6">
           main
